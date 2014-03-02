@@ -1,45 +1,55 @@
-/* I recommend you don't change the curtain but I won't stop you if you're gonna */
-.CurtainBlock {
-  	background-color: black;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 999;
-}
-
-/* You can totally change this to suit your needs though! */
-.CurtainBlockAlert {
-	background-color: rgb(255,255,255);
-	width: 500px;
-	height: 275px;
-	position: absolute;
-	margin: auto;
-	top: 0; left: 0; right: 0; bottom: 0;
-	-webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.4);
-	-o-box-shadow: 0px 0px 20px rgba(255,255,255,0.4);
-	-ms-box-shadow: 0px 0px 20px rgba(255,255,255,0.4);
-	box-shadow: 0px 0px 20px rgba(255,255,255,0.4);
-	font-family: sans-serif;
-	text-align: center;
-}
-
-.CurtainBlock h1 {
-	font-family: sans-serif; 
-	color: black;
-	font-size: 30pt;
-	margin: 10px;
-}
-
-.CurtainBlock p {
-	font-family: sans-serif; 
-	color: black; 
-	text-align: justify; 
-	font-size: 12pt;
-	margin: 10px;
-
-}
-
-.CurtainBlockConfirm {display: none;}
-.CurtainBlockDeny {display: none;}
+    .CurtainBlock {
+      	background-color: black;
+    	position: fixed;
+    	top: 0px;
+    	left: 0px;
+    	width: 100%;
+    	height: 100%;
+    	z-index: 999;
+    }
+    
+    .CurtainBlockAlertBG {
+    	background-image: url('https://24.media.tumblr.com/215e921b16aa32075c5c40b2d7b35405/tumblr_n1ph0q55IW1r2sedyo1_500.png');
+    	width: 500px;
+    	height: 275px;
+    	position: absolute;
+    	margin: auto;
+    	top: 0; left: 0; right: 0; bottom: 0;
+    	opacity: .5;
+    	-moz-border-radius: 15px;
+        border-radius: 15px;
+        box-shadow: inset 0 0 10px 10px rgba(0,0,0,.9);
+    }
+    
+    .CurtainBlockAlert {
+    	width: 500px;
+    	height: 275px;
+    	position: absolute;
+    	margin: auto;
+    	top: 0; left: 0; right: 0; bottom: 0;
+    	font-family: sans-serif;
+    	text-align: center;
+    	-moz-border-radius: 15px;
+        border-radius: 15px;
+    }
+    
+    .CurtainBlock h1 {
+    	font-family: sans-serif; 
+    	color: white;
+    	font-size: 30pt;
+    	margin: 20px;
+    	text-shadow: 0 0 20px #000;
+    }
+    
+    .CurtainBlock p {
+    	font-family: sans-serif; 
+    	color: White; 
+    	text-align: justify; 
+    	font-size: 12pt;
+    	margin: 20px;
+    	text-shadow: 0 0 10px #000;
+    
+    }
+    
+    .CurtainBlockConfirm {display: none;}
+    .CurtainBlockDeny {display: none;}
