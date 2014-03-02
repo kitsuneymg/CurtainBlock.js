@@ -7,7 +7,6 @@ $(function() {
 	$alert = $('.CurtainBlockAlert');
 	$confirm = $('.CurtainBlockConfirm');
 	$deny = $('.CurtainBlockDeny');
-	$curl = $(location).attr('href');
 	complete = 0;
 	
 	    //check to see if we're on a 'safe' tagged page
