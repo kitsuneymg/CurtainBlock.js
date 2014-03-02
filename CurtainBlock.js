@@ -11,7 +11,6 @@ function CurtainBlock(persistent,transparency,redir) {$(function() {
     //check to see if we're on a 'safe' tagged page
     allsafe=1;
     $('.tags').each( function(index, element ){
-        allsafe=1;
         if( $(element).children('a:contains("nsfw")').length > 0) {
             allsafe=0;
             return false;
