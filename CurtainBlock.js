@@ -16,7 +16,7 @@ function CurtainBlock(persistent,transparency,redir) {$(function() {
             return false;
         }
     } )
-    if (allsafe) {
+    if (allsafe === 0) {
         $curtain.hide();
         complete = 1; persistent = 0;
     }
